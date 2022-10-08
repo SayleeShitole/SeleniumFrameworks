@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="name" value="Club Mahindra"></parameter>
+<parameter name="txt1" value="Beauty Of Nature"></parameter>
+<parameter name="txt2" value="Forget not that the earth delights to feel your bare feet and the winds long to play with your hair.
+Heaven is under our feet as well as over our heads.Great ambience and good food.
+ This is my first visit. Had a really joyful time at Happy Hub. The evening entertainment is a really engaging."></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.testLayer.HomePageTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
